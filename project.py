@@ -6,7 +6,7 @@ import json
 
 # --- KONFIGURASI API ---
 # ⚠️ PENTING: Ganti tulisan di bawah ini dengan API Key aslimu dari Google AI Studio
-API_KEY = "AIzaSyArwdvkwWXyDyw1pkhXOGQ0_j93NcgeEDM" 
+API_KEY = "google_api_key_kalian" 
 
 # Setup Google AI
 genai.configure(api_key=API_KEY)
@@ -174,4 +174,5 @@ if prompt := st.chat_input("Contoh: Berapa total buat beli Makanan?"):
             st.markdown(response_text)
             
     # 3. Simpan jawaban bot
+
     st.session_state.messages.append({"role": "assistant", "content": response_text})
