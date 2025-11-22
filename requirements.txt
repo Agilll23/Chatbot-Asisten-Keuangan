@@ -1,0 +1,9 @@
+## Daftar library yang harus diinstall
+
+1. pip install streamlit pandas pillow
+2. pip install google-generativeai
+
+Untuk membuat environment di project ini, jalankan command ini di terminal
+1. conda create --name avpn-project python=3.13
+2. conda activate avpn-project
+
