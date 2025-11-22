@@ -25,9 +25,7 @@ Chatbot cerdas berbasis AI yang membantu mencatat pengeluaran keuangan hanya den
     ```
 
 2.  **Install Library:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+    Install library yang ada di requirements.txt, install di terminal vs code kalian
 
 3.  **Setup API Key:**
     * Buat folder `.streamlit` di dalam folder proyek.
