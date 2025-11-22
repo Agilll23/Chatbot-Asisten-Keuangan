@@ -25,15 +25,13 @@ Chatbot cerdas berbasis AI yang membantu mencatat pengeluaran keuangan hanya den
     ```
 
 2.  **Install Library:**
-    Install library yang ada di requirements.txt, install di terminal vs code kalian
+    * Install library yang ada di requirements.txt, install di terminal vs code kalian
+    * jalankan environment di project tersebut menggunakan Anaconda
 
 3.  **Setup API Key:**
-    * Buat folder `.streamlit` di dalam folder proyek.
-    * Buat file `secrets.toml` di dalam folder `.streamlit`.
-    * Isi file tersebut dengan:
-        ```toml
-        GOOGLE_API_KEY = "masukkan_api_key_google_disini"
-        ```
+    * Untuk mendapatkan API Key kalian, Silahkan cari di pencarian google kalian yaitu google AI Studio
+    * Silahkan Daftar, dan setelah itu cari menu Get API key di dekat menu settings
+    * Dan kalian bisa create API key kalian disitu
 
 4.  **Jalankan Aplikasi:**
     ```bash
@@ -41,4 +39,4 @@ Chatbot cerdas berbasis AI yang membantu mencatat pengeluaran keuangan hanya den
     ```
 
 ## 👨‍💻 Author
-[Agil Irman Fadri] - [Link LinkedIn Kamu jika mau]
+[Agil Irman Fadri] - [(https://www.linkedin.com/in/agil-irman-fadri/)]
